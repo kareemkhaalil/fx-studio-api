@@ -17,9 +17,9 @@
     }
   ],
   "env": {
-    "NOTION_TOKEN": "@notion_token",
-    "NOTION_PROJECTS_DATABASE_ID": "@notion_projects_db_id",
-    "NOTION_MESSAGES_DATABASE_ID": "@notion_messages_db_id"
+    "NOTION_TOKEN": "@NOTION_TOKEN",
+    "NOTION_PROJECTS_DATABASE_ID": "@NOTION_PROJECTS_DATABASE_ID",
+    "NOTION_MESSAGES_DATABASE_ID": "@NOTION_MESSAGES_DATABASE_ID"
   }
 }
 
