@@ -1,0 +1,25 @@
+{
+  "version": 2,
+  "builds": [
+    {
+      "src": "src/main.py",
+      "use": "@vercel/python"
+    }
+  ],
+  "routes": [
+    {
+      "src": "/api/(.*)",
+      "dest": "src/main.py"
+    },
+    {
+      "src": "/(.*)",
+      "dest": "src/main.py"
+    }
+  ],
+  "env": {
+    "NOTION_TOKEN": "@notion_token",
+    "NOTION_PROJECTS_DATABASE_ID": "@notion_projects_db_id",
+    "NOTION_MESSAGES_DATABASE_ID": "@notion_messages_db_id"
+  }
+}
+
